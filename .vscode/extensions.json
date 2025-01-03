@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "HashiCorp.terraform",
+        "azapi-vscode.azapi",
+        "redhat.vscode-yaml",
+        "usernamehw.errorlens",
+        "DavidAnson.vscode-markdownlint",
+        "yzhang.markdown-all-in-one"
+    ]
+}
