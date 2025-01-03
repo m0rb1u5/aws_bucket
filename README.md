@@ -1,4 +1,4 @@
-# Terraform - Do Básico ao Avançado: Bloco Terraform
+# Terraform: AWS Bucket
 
 ## Pre-requirements
 
@@ -6,6 +6,7 @@
 2. [Install the Visual Studio Code](https://code.visualstudio.com/).
 3. Install some extensions in Visual Studio Code<sup>*</sup>:
    - [HashiCorp Terraform](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform) (required).
+   - [HashiCorp HCL](https://marketplace.visualstudio.com/items?itemName=HashiCorp.HCL) (required).
    - [Terraform AzApi Provider](https://marketplace.visualstudio.com/items?itemName=azapi-vscode.azapi) (required).
    - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) (required).
    - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) (required).

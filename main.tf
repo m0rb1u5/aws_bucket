@@ -1,18 +1,21 @@
 terraform {
-  required_version = "~> 1.10.0" # 1.10.0 to 1.10.n
+  required_version = ">= 1.10.0"
 
   required_providers {
     aws = {
-      version = "1.0"
       source  = "hashicorp/aws"
-    }
-
-    azurerm = {
-      version = "2.0"
-      source  = "hashicorp/azurerm"
+      version = "5.82.2"
     }
   }
+}
 
-  backend "azurerm" {
+provider "aws" {
+  region = "sa-east-1"
+
+  default_tags {
+    tags = {
+      owner      = "m0rb1u5"
+      managed-by = "terraform"
+    }
   }
 }

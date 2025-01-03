@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "HashiCorp.terraform",
+        "HashiCorp.HCL",
         "azapi-vscode.azapi",
         "redhat.vscode-yaml",
         "usernamehw.errorlens",
