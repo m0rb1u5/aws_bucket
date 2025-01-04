@@ -23,3 +23,16 @@ Comments:
 ## Configuration
 
 1. Open the project on Visual Studio Code.
+2. [Authenticate locally to AWS](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#authentication-and-configuration).
+3. Prints required providers: `terraform providers`.
+4. Initialize and download required modules and providers: `terraform init`.
+
+## Create Resources
+
+1. Validate code: `terraform validate`
+2. If pass, create a plan to apply resources: `terraform plan -out plan.out`
+3. After review the plan, apply plan to create resources: `terraform apply plan.out`
+
+## Destroy Resources
+
+Just run the command: `terraform destroy`
